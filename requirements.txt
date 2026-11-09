@@ -1,0 +1,13 @@
+# Install a matching torch/torchvision pair for your CUDA version first.
+# These are compatibility constraints, not a recovered paper environment lockfile.
+torch>=2.2,<2.6
+torchvision>=0.17,<0.21
+timm>=0.9.16,<1.0
+lightning>=2.2,<2.6
+numpy>=1.24,<2
+scipy>=1.10,<2
+Pillow>=9.5
+PyYAML>=6.0
+einops>=0.6
+decord>=0.6
+tensorboard>=2.12

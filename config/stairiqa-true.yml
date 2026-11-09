@@ -1,0 +1,20 @@
+exp:
+    name: stairiqa-true
+    device: [0]
+
+dataset: 
+    num_split: 10
+    root: './data/'
+    ann: './data/true-result.txt'
+    sample_num: 12
+    size: 224
+
+train:
+    epochs: 20
+    batch_size: 4
+
+model:
+    backbone: 'stairiqa'
+
+optimizer:
+    lr: 0.0001

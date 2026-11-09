@@ -1,0 +1,22 @@
+exp:
+    name: my-tm
+    device: [0]
+
+dataset: 
+    num_split: 1
+    root: './data/'
+    ann: './data/true-result.txt'
+    train: './data/true-result.txt'
+    test: './data/mri-result.txt'
+    sample_num: 12
+    size: 224
+
+train:
+    epochs: 20
+    batch_size: 2
+
+model:
+    backbone: None
+
+optimizer:
+    lr: 0.0001

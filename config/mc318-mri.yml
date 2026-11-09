@@ -1,0 +1,20 @@
+exp:
+    name: mc318-mri
+    device: [0]
+
+dataset: 
+    num_split: 10
+    root: './data/'
+    ann: './data/mri-result.txt'
+    sample_num: 12
+    size: 224
+
+train:
+    epochs: 20
+    batch_size: 4
+
+model:
+    backbone: 'mc318'
+
+optimizer:
+    lr: 0.0001

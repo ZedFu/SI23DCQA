@@ -1,0 +1,13 @@
+-r requirements.txt
+opencv-python>=4.7,<4.12
+open3d>=0.17,<0.20
+pytorchvideo==0.1.5
+# The bundled mPLUG-Owl2 code uses Transformers internal APIs.
+transformers==4.37.2
+accelerate>=0.26,<1.0
+sentencepiece>=0.1.99
+protobuf>=3.20
+icecream>=2.1
+tiktoken>=0.5
+einops-exts>=0.0.4
+# Optional quantized mPLUG extraction additionally needs bitsandbytes.

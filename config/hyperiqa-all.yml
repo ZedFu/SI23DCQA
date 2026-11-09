@@ -1,0 +1,20 @@
+exp:
+    name: hyperiqa-all
+    device: [0]
+
+dataset: 
+    num_split: 10
+    root: './data/'
+    ann: './data/all-result.txt'
+    sample_num: 12
+    size: 224
+
+train:
+    epochs: 20
+    batch_size: 4
+
+model:
+    backbone: 'hyperiqa'
+
+optimizer:
+    lr: 0.0001
